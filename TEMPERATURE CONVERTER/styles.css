@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("temperature.png");
+
+}
+
+.conversor {
+    height: 70px;
+    width: 450px;
+    position: absolute;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color: yellow;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 22px 15px;
+    top: 6%;
+    left: 39%;
+    z-index: 1;
+}
+
+.converter {
+    margin: 5% 25%;
+    width: 1000px;
+    height: 700px;
+    background-color: darkcyan;
+    padding: 5% 5%;
+    position: relative;
+}
+
+.temperature {
+    height: 150px;
+    width: 800px;
+    margin: 5px 0;
+    font-size: 150px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    background: #000;
+    color: white;
+    border: none;
+    text-align: center;
+    outline: none;
+}
+
+::-webkit-input-placeholder {
+    color: #222;
+}
+
+::-ms-input-placeholder {
+    color: #222;
+}
+
+::-moz-placeholder {
+    color: #222;
+}
+
+button {
+    display: inline-block;
+    height: 70px;
+    width: 380px;
+    font-size: 35px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    padding: 10px 0;
+    margin: 20px 0 0 25%;
+    color: #000;
+    background: #D1D3D3;
+
+}
+
+button:hover {
+    background-color: black;
+    color: #D1D3D3;
+    transition: ease .6s;
+}
